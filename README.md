@@ -4,6 +4,8 @@
 
 **Instituição:** Universidade Estácio de Sá
 
+**Previsão de Conclusão:** [![Previsão de Conclusão](https://img.shields.io/badge/Novembro%20de%202027-blue.svg)]()
+
 ## Grade Curricular :books:
 
 - [ ] ARQUITETURA DE COMPUTADORES - **M** - **88h**
