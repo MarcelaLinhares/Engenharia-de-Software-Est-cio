@@ -103,5 +103,5 @@
 
 ### Carga Horária Resumida
 * Total de Horas - Mínima (M): 3.322
-* Total de Horas - Optativas (O): 506
+* Total de Horas - Optativa (O): 506
 * Total Geral: 3.828
