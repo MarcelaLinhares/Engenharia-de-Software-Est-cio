@@ -18,7 +18,7 @@
 
 - [ ] PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE - **M** - **88h**
 
-- [ ] DESENV. WEB EM HTML5, CSS, JAVASCRIPT E PHP - **M** - **66h**
+- [ ] DESENV. WEB EM HTML5, CSS, JAVASCRIPT E PHP - **M** - **110h**
 
 - [ ] FUNDAMENTOS DE REDES DE COMPUTADORES - **M** - **88h**
 
@@ -102,6 +102,6 @@
 
 
 ### Carga Horária Resumida
-* Total de Horas - Mínima (M): 3.322
+* Total de Horas - Mínima (M): 3.278
 * Total de Horas - Optativa (O): 506
-* Total Geral: 3.828
+* Total Geral: 3.784
