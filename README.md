@@ -4,7 +4,7 @@
 
 **Instituição:** Universidade Estácio de Sá
 
-**Previsão de Conclusão:** [![Previsão de Conclusão](https://img.shields.io/badge/Novembro%20de%202027-blue.svg)]()
+**Previsão de Conclusão:** [![Previsão de Conclusão](https://img.shields.io/badge/Outubro%20de%202027-blue.svg)]()
 
 ## Grade Curricular :books:
 
