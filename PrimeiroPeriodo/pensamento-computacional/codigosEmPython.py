@@ -13,3 +13,7 @@ print("O valor da variável V é:",V); # O valor da variável V é: 7
 
 NOME="João";
 print(NOME, "NOME", "NOME"); # João NOME NOME
+
+N="Guilherme";
+print(N,N,N); # Guilherme Guilherme Guilherme
+print("Eu conheço um amigo chamado",N); # Eu conheço um amigo chamado Guilherme
