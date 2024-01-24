@@ -25,3 +25,15 @@ for (let pixel of img1) {
 }
 
 console.log(img1);
+
+// Módulo 3: As expressões em código de computador
+// (Reconhecer expressões)
+
+// Uso da expressão aritmética "multiplicar" para diminuir a intensidade da cor verde na imagem, e deixá-la mais laranja.
+const img2 = new SimpleImage("flores.jpg");
+
+for (let pixel of img2) {
+    pixel.setGreen(pixel.getGreen() * 0.7);
+}
+
+console.log(img2);
