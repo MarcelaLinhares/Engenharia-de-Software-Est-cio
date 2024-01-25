@@ -66,3 +66,18 @@ for (let pixel of img4) {
 
 }
 console.log(img4);
+
+// Distinguir os pixels em amarelo(combinação vermelho e verde) da calçada e alterar para cinza
+const img5 = new SimpleImage("calcada.jpg");
+
+for (let pixel of img5) {
+    const media = (pixel.getRed() + pixel.getGreen() + pixel.getBlue()) / 3;
+
+    if (pixel.getRed() > media && pixel.getGreen() > media) {
+        pixel.setRed(media);
+        pixel.setGreen(media);
+        pixel.setBlue(media);
+    }
+}
+
+console.log(img5);
