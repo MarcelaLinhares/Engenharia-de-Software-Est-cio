@@ -37,3 +37,32 @@ for (let pixel of img2) {
 }
 
 console.log(img2);
+
+// Uso de expressões aritméticas "somar" e "dividir" para deixar a imagem em escala de cinza
+const img3 = new SimpleImage("flores.jpg");
+
+for (let pixel of img3) {
+    const soma = (pixel.getRed() + pixel.getGreen() + pixel.getBlue());
+    const media = soma / 3;
+    pixel.setRed(media);
+    pixel.setGreen(media);
+    pixel.setBlue(media);
+}
+
+console.log(img3);
+
+// Módulo 4: A estrutura condicional if
+// (Distinguir a estrutura condicional if)
+
+// Uso da condição if para distinguir os pixels em vermelho 255, verde/azul 0 e transformá-los em cinza
+const img4 = new SimpleImage("RGB.png");
+for (let pixel of img4) {
+
+    if (pixel.getRed() == 255 && pixel.getGreen() == 0 && pixel.getBlue() == 0) {
+        pixel.setRed(120);
+        pixel.setGreen(120);
+        pixel.setBlue(120);
+    }
+
+}
+console.log(img4);
