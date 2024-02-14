@@ -29,3 +29,21 @@ print("Olá, Mundo!")
 # variável x tem o valor 5 e é do tipo int
 x=5
 print(x,type(x))
+
+# Módulo 3: Tipos de dados e expressões em Python
+
+# Tipo "int", underline como separador de milhar
+print(type(1_000_000))
+
+# Tipo "Float", com parte inteira e parte decimal, usado para Reais
+print(type(50.0))
+print(type(2+3+1.0)) # Se tiver apenas um valor "Float", o resultado será do tipo "Float"
+
+# Exponenciação
+print(2**3) # 2 elevado à 3 = 8
+
+# Tipo "Bool"
+print(2<3) # True
+
+# Operador "Not"
+print(not(2<3)) # False
