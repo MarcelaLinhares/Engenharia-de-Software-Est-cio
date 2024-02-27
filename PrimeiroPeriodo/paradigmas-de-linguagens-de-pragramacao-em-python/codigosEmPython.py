@@ -99,3 +99,23 @@ print(nome)
 numero = eval(input('Entre com um numero inteiro: ')) # input+eval trata tudo o que for digitado pelo usuário como número
 numero = numero + 2
 print(numero)
+
+# Cálculo do IMC
+peso = eval(input('Digite o seu peso: '))
+altura = eval(input('Digite sua altura: ').replace(',', '.')) # a função eval(input()) está interpretando a entrada da altura como uma tupla, por isso tem que substituir "," por "." caso o usuário digite ","
+imc = peso/(altura**2)
+print('IMC = ', imc) # Valor do IMC conforme cálculo feito a partir dos dados digitados pelo usuário
+
+# Formatação de dados de saída
+hora = 10
+minutos = 26
+segundos = 18
+print(f'{hora} : {minutos} : {segundos}')  # 10 : 26 : 18
+
+print('{:4},{:5}'.format(10,100))  # '    10,     100' - 4 espaços em antes do n° 10 e 5 antes do nº 100
+
+# Impressão de sequências
+str = 'Hello World'
+print(str[0:4])  # Hell
+print(str[2:8])  # llo Wo
+print(str[::-1]) # dlroW olleH
