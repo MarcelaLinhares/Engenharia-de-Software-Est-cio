@@ -20,6 +20,7 @@ def conta_numeros_pares(n):
 
 print(conta_numeros_pares(5))
 
+
 # TEMA 3: PYTHON BÁSICO
 
 # Módulo 1: Linguagem Python e suas características
@@ -47,3 +48,54 @@ print(2<3) # True
 
 # Operador "Not"
 print(not(2<3)) # False
+
+# Delimitadores de String
+curso = 'Ensino a Distância';
+print(curso.upper()) #'ENSINO A DISTÂNCIA'
+print(curso.lower()) #'ensino a distância'
+print(curso.split()) #['Ensino', 'a', 'Distância']
+
+# Listas
+a=['10']
+b=['20']
+c=['30']
+r=a+b+c
+print(f'r={r}')  # r=['10', '20', '30']
+
+r2=a*2+b*3+c*4
+print(f'r={r2}')  # r=['10', '10', '20', '20', '20', '30', '30', '30', '30']
+
+# Módulo 4: Atribuição, entrada e saída de dados em Python
+
+# Atribuição Múltipla
+x, y = 2, 5
+print(x)
+print(y)
+
+# Operadores de atribuição compostos
+x = 10
+x = x + 1 # x += 1
+print(x)  # 11
+
+# Troca de variáveis
+a = 1
+b = 2
+# troca de variáveis usando variável auxiliar ‘temp’
+temp = a
+a = b
+b = temp
+print(f"O valor da variável a é: {a}") # 2
+print(f"O valor da variável b é: {b}") # 1
+# troca de variáveis através de atribuição múltipla
+a, b = b, a
+print(f"O valor da variável a é: {a}") # 1
+print(f"O valor da variável b é: {b}") # 2
+
+# Entrada de dados com a função Input()
+nome = input('Entre com seu nome: ')  # input trata tudo o que for digitado pelo usuário como uma string
+print(nome) 
+
+# Entrada de dados com a função Input() com Eval()
+numero = eval(input('Entre com um numero inteiro: ')) # input+eval trata tudo o que for digitado pelo usuário como número
+numero = numero + 2
+print(numero)
