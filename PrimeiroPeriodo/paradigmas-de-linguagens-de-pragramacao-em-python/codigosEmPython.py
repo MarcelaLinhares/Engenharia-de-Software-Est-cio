@@ -10,7 +10,7 @@ def conta_numeros_pares(n):
             p += 1
     return p
 
-print(conta_numeros_pares(10))
+print(conta_numeros_pares(10))  # 6
 
 # Mesmo código que o anterior, porém usando o conceito de função recursiva (a função chama ela mesma dentro do código)
 def conta_numeros_pares(n):
@@ -18,7 +18,7 @@ def conta_numeros_pares(n):
     elif n % 2 == 0: return 1 + conta_numeros_pares(n - 1)
     else: return conta_numeros_pares(n - 1)
 
-print(conta_numeros_pares(5))
+print(conta_numeros_pares(5))  # 3
 
 
 # TEMA 3: PYTHON BÁSICO
@@ -239,3 +239,25 @@ def fatorial(n):
         return fat
     
 print(fatorial(5))  # 120
+
+# Módulo 3: Bibliotecas em Python
+
+# Módulo math (dedicado a operações matemáticas)
+import math
+
+x = math.sqrt(5)  # Raiz quadrada de 5
+print(x)  # 2.23606797749979
+
+# Módulo time (Usado para implementar contadores temporais)
+import time
+
+x = time.time()
+print(f'Local time: {time.ctime(x)}')  # String com data e horário local
+
+# Módulo tkinter (Usado para desenvolver interfaces gráficas)
+from tkinter import *
+
+janelaPrincipal = Tk()
+texto = Label(master = janelaPrincipal, text = "Minha janela exibida")
+texto.place(x = 50, y = 100)
+janelaPrincipal.mainloop()  # Exibi uma janela com a mensagem da variável text
