@@ -261,3 +261,13 @@ janelaPrincipal = Tk()
 texto = Label(master = janelaPrincipal, text = "Minha janela exibida")
 texto.place(x = 50, y = 100)
 janelaPrincipal.mainloop()  # Exibi uma janela com a mensagem da variável text
+
+# Módulo 4: Eventos em Python
+
+# Tratamento de exceções na linguagem Python
+# Bloco try/except
+try:
+    num = eval(input("Entre com um número inteiro: \n"))
+    print(num)
+except:
+    print("Entre com o valor numérico e não letras")
