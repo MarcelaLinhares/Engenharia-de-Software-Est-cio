@@ -176,3 +176,66 @@ for num in range(1, 11):
     else:
         print(num)
 print('Laço encerrado')  # 1, 3, 5, 7, 9, Laço encerrado # Quando o nº é par ele passa para o Else e imprimi os nº ímpar
+
+# Módulo 2: Conceitos de subprogramas e a sua utilização em Python
+
+# Subprogramas (Funções - def)
+escolha = input("Escolha uma opção de função: 1 ou 2\n")
+if escolha == "1":
+    def func1(x):
+        return x + 1  
+    s = func1(10)
+else:
+    def func2(x):
+        return x + 2
+    s = func2(10)
+print(s)  # Se escolher 1 resposta 11, se escolher 2 resposta 12
+
+# Subprogramas aninhados (uma função dentro de outra)
+def taximetro(distancia):
+    def calculaMult():
+        if distancia < 5:
+            return 1.2
+        else:
+            return 1
+
+    multiplicador = calculaMult()
+    largada = 3
+    km_rodado = 2
+    valor = (largada + distancia * km_rodado) * multiplicador
+    return valor
+
+dist = eval(input("Entre com a distancia a ser percorrida em km: \n"))
+pagamento = taximetro(dist)
+print(f'O valor a pagar é R$ {pagamento}')
+
+# Funções recursivas (função que chama a si mesma)
+def regressiva(x):
+    if x <= 0:
+        print("Acabou")
+    else:
+        print(x)
+        regressiva(x-1)
+
+regressiva(3)  # 3, 2, 1, Acabou
+
+# Função recursiva fatorial
+def fatorial(n):
+    if n == 0 or n == 1:
+         return 1
+    else:
+         return n*fatorial(n-1)
+    
+print(fatorial(5))  # 120
+
+# Função fatorial com laço for (não recursiva)
+def fatorial(n):
+    fat = 1
+    if n == 0 or n == 1:
+        return fat
+    else:
+        for x in range(2, n + 1):
+               fat = fat*x
+        return fat
+    
+print(fatorial(5))  # 120
