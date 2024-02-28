@@ -119,3 +119,60 @@ str = 'Hello World'
 print(str[0:4])  # Hell
 print(str[2:8])  # llo Wo
 print(str[::-1]) # dlroW olleH
+
+
+# TEMA 4: PYTHON ESTRUTURADO
+
+# Módulo 1: Estruturas de decisão e repetição em Python
+
+# As listas do tipo range()
+# Simples
+print(list(range(3)))  # [0,1,2]
+# Não iniciado em zero
+print(list(range(2,7)))  # [2,3,4,5,6]
+# Indicando início, fim e passo
+print(list(range(2,9,3)))  # [2,5,8]
+
+# A sintaxe da estrutura for
+for item in range(2, 9, 3):
+    print(item)  # 2, 5, 8
+
+# O laço for com uma string
+nome = 'Marcela'
+for letra in nome:
+    print(letra)  # M, a, r, c, e, l, a
+
+# O laço for com várias strings
+nomes = ['Laura', 'Lis', 'Guilherme', 'Enzo', 'Arthur']
+for nome in nomes:
+    print(nome)  # Laura, Lis, Guilherme, Enzo, Arthur
+
+# Estrutura de repetição while
+palavra = input('Entre com uma palavra: \n ')
+while palavra != 'sair':
+    palavra = input('Digite sair para encerrar o laço: \n')
+print('Você digitou sair e agora está fora do laço')
+
+# A instrução break
+for num in range(1, 11):
+    if num == 5:
+        break
+    else:
+        print(num)
+print('Laço encerrado')  # 1, 2, 3, 4, Laço encerrado # Parou no nº 5, imprimiu até nº 4
+
+# A instrução continue
+for num in range(1, 11):
+    if num == 5:
+        continue
+    else:
+        print(num)  
+print('Laço encerrado')  # 1, 2, 3, 4, 6, 7, 8, 9, 10, Laço encerrado # Pula o nº 5
+
+# A instrução pass
+for num in range(1, 11):
+    if num % 2 == 0:
+        pass
+    else:
+        print(num)
+print('Laço encerrado')  # 1, 3, 5, 7, 9, Laço encerrado # Quando o nº é par ele passa para o Else e imprimi os nº ímpar
