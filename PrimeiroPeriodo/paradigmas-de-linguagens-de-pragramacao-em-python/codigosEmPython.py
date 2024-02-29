@@ -271,3 +271,39 @@ try:
     print(num)
 except:
     print("Entre com o valor numérico e não letras")
+
+
+# TEMA 5: PYTHON ORIENTADO A OBJETOS
+    
+# Módulo 2: Orientação a objetos na linguagem Python
+    
+# Instanciar um novo objeto com método __init__
+class Conta:
+    def __init__(self, numero, cpf, nomeTitular, saldo):
+        self.numero = numero
+        self.cpf = cpf
+        self.nomeTitular = nomeTitular
+        self.saldo = saldo
+
+def main():
+    c1 = Conta(1,1,"Joao",1000) # Objeto sendo instanciado
+    print (f"Nome do titular da conta: {c1.nomeTitular}")
+    print (f"Número da conta: {c1.numero}")
+    print (f"CPF do titular da conta: {c1.cpf}")
+    print (f"Saldo da conta: {c1.saldo}")
+
+if __name__ == "__main__": 
+    main()
+
+# Classe sem método construtor
+class A():
+    def f(self):
+        print("foo") 
+
+
+def main():
+    obj_A = A() # Objeto sendo instanciado
+    obj_A.f()
+
+if __name__ == "__main__": 
+    main()
