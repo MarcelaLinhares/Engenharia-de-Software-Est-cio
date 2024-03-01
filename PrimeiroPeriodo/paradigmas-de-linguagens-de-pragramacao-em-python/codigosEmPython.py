@@ -307,3 +307,71 @@ def main():
 
 if __name__ == "__main__": 
     main()
+
+
+# TEMA 6: PYTHON EM OUTROS PARADIGMAS
+    
+# Módulo 1: Linguagem funcional no Python
+
+# Função não pura
+valor = 20
+
+def multiplica(fator):
+    global valor
+    valor = valor * fator
+    print("Resultado", valor)
+
+def main():
+    numero =int(input("Entre com um número inteiro: \n"))
+    multiplica(numero)
+    multiplica(numero)
+
+if __name__ == "__main__":
+    main()
+
+# Função pura
+# (A função multiplica deste script é um exemplo de função pura, pois depende apenas de seus parâmetros para gerar o resultado, 
+# e não acessa ou modifica nenhuma variável externa à função e retorna um valor)
+valor = 20
+
+def multiplica(valor, fator):
+    valor = valor * fator
+    return valor
+
+def main():
+    numero = int(input("Entre com um número inteiro: \n"))
+    print("Resultado", multiplica(valor, numero))
+    print("Resultado", multiplica(valor, numero))
+
+if __name__ == "__main__":
+    main()
+
+# Funções lambda
+# Função para multiplicar dois números:
+def multiplicar(a, b):
+    return a*b
+print(multiplicar(5, 2))  # 10
+# Função lambda equivalente é:
+print((lambda a, b: a*b)(5, 2))  # 10
+
+# Função lambda e função map
+lista = [1, 2, 3, 4, 5]
+
+nova_lista = map(lambda item: item * 3, lista)  # função map e lambda
+
+def main():
+    print(list(nova_lista))  # [3, 6, 9, 12, 15]
+
+if __name__ == "__main__":
+    main()
+
+# Função lambda e função filter
+lista = [1, 2, 3, 4, 5]
+
+nova_lista = filter(lambda item: item % 2 != 0, lista)
+
+def main():
+    print(list(nova_lista))  # [1, 3, 5]
+
+if __name__ == "__main__":
+    main()
