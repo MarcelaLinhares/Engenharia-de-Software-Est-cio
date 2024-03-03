@@ -1,0 +1,19 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Arquivos de cache Python
+__pycache__/
+
+# Arquivos de configuração local
+*.env
+*.pyc
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependências instaladas
+lib/
+lib64/
