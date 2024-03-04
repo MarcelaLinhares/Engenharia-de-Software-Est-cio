@@ -20,4 +20,5 @@ UNIDADES DE MEDIDA: Na base 2 e na base 10
 CONVERSÃO (Base 2): 
 
 143 GB => KB ?
-143 x 2**20 = 149.946.368 KB
+
+143 x 2^20 = 149.946.368 KB
