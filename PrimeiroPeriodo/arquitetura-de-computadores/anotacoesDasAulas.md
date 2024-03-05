@@ -20,9 +20,14 @@ UNIDADES DE MEDIDA: Na base 2 e na base 10
 CONVERSÃO (Base 2): 
 
 143 GB => KB ?
+<<<<<<< HEAD
 143 x 2^20 = 149.946.368 KB
 
 CONVERSÃO (Base 10): 
 
 143 GB => KB ?
 143 x 10^6 = 143.000.000 KB
+=======
+
+143 x 2^20 = 149.946.368 KB
+>>>>>>> d7f61f06ce1d39638c998d46e39684c212b4268a
