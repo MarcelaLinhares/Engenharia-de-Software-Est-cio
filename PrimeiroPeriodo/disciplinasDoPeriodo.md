@@ -1,6 +1,6 @@
 ># 1º PERÍODO
 
-## Disciplinas (Cursando)
+## Disciplinas (Cursadas)
 
 - [x] ARQUITETURA DE COMPUTADORES - **M** - **88h**
 
