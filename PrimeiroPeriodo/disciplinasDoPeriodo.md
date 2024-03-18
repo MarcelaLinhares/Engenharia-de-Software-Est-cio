@@ -13,7 +13,7 @@
 - [x] PROCESSOS DE DESENVOLVIMENTO DE SOFTWARE - **M** - **88h**
 
 
-### Carga Horária Resumida do Período
-* Total de Horas - Mínima (M): 396
-* Total de Horas - Optativa (O): 0
-* Total Geral do Período: 396
+### **Carga Horária Resumida do Período**
+* Total de Horas - Mínima (M): **396h**
+* Total de Horas - Optativa (O): **0h**
+* Total Geral do Período: **396h**

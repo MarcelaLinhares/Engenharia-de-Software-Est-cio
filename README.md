@@ -101,7 +101,12 @@
 - [ ] TÓPICOS EM LIBRAS: SURDEZ E INCLUSÃO - **O** - **66h**
 
 
-### Carga Horária Resumida
-* Total de Horas - Mínima (M): 3.278
-* Total de Horas - Optativa (O): 506
-* Total Geral: 3.784
+### **Carga Horária Resumida**
+* Total de Horas - Mínima (M): **3.278h**
+* Total de Horas - Optativa (O): **506h**
+* Total Geral: **3.784h**
+
+### **Carga Horária Cursada**
+* Total de Horas - Mínima (M): **396h**
+* Total de Horas - Optativa (O): **0h**
+* Total Geral: **396h**
